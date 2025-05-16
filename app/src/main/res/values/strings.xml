@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Geobruc</string>
+    <string name="sign_in">sign In</string>
+    <string name="sign_up">Don\'t have an account yet? Sign Up</string>
+    <string name="username_or_password">Email or Username</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
 </resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/sign_in_fragment">
+
+    <fragment
+        android:id="@+id/sign_in_fragment"
+        android:name="co.za.geobruc.presentation.screens.sign_in.SignInFragment"
+        android:label="sign_in_page"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_sign_in_to_loginFragment"
+            app:destination="@id/login_in_fragment"
+            />
+        <action
+            android:id="@+id/action_sign_up_fragment"
+            app:destination="@id/sign_up_fragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_in_fragment"
+        android:name="co.za.geobruc.presentation.screens.login.LoginFragment"
+        android:label="login_page"
+        tools:layout="@layout/fragment_login"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/sign_up_fragment"
+        tools:layout="@layout/fragment_sign_up">
+    </fragment>
+
+</navigation>
