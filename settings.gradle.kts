@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Geobruc"
 include(":app")
+include(":domain")
+include(":data")

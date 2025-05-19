@@ -41,6 +41,10 @@ android {
 }
 
 dependencies {
+    // Module dependencies
+    implementation(project(":domain"))
+//    implementation(project(":data"))
+
     // Core AndroidX Libraries
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

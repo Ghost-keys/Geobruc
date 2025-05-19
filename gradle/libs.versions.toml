@@ -37,6 +37,7 @@ mockitoAndroid = "5.17.0"
 mockitoCore = "5.17.0"
 mockitoInline = "5.2.0"
 mockitoKotlin = "5.4.0"
+rxjava = "3.1.5"
 
 [libraries]
 # AndroidX Core
@@ -90,6 +91,7 @@ mockito-android = { group = "org.mockito", name = "mockito-android", version.ref
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockitoCore" }
 mockito-inline = { group = "org.mockito", name = "mockito-inline", version.ref = "mockitoInline" }
 mockito-kotlin = { group = "org.mockito.kotlin", name = "mockito-kotlin", version.ref = "mockitoKotlin" }
+rxjava = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
